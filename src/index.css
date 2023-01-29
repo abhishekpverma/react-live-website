@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+.main{
+  /* background-color: #5b5b5b; */
+  overflow: hidden;
+}
+
+.navbar-brand {
+  font-size: 1.7rem !important;
+  color: rgb(8, 8, 8) !important;
+}
+
+.navbar{
+  background-color: rgba(138, 138, 138, 0.475);
+  width: 100vw;
+}
+
+.navbar a{
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.menu_active {
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
+.navbar a:hover{
+  background-color: rgb(161, 161, 161);
+}
+
+.active{
+  background-color: rgba(0, 149, 255, 0.603);
+}
+
+.brand-name{
+  color: rgba(0, 149, 255, 0.87);
+}
+
+.my-3{
+  font-weight: 400;
+  color: rgb(132, 132, 132);
+  font-size: .8rem;
+  line-height: 20px;
+}
+
+.card-title{
+  font-size: 1.5vw;
+}
+
+#header{
+  margin-bottom: 10vw;
+}
+
+.nav-link{
+  margin-right: 20px;
+}
